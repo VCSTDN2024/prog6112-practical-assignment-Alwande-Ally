@@ -1,0 +1,25 @@
+# Ignore NetBeans build files
+build/
+dist/
+nbproject/private/
+
+# Ignore NetBeans config files that are not needed
+nbbuild/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# IDE specific (other editors)
+*.iml
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+
+
