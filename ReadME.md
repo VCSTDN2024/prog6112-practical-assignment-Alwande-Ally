@@ -1,116 +1,105 @@
-# TV Series Manager - 2025
+# TVSeriesManager
 
-## Overview
-**TV Series Manager** is a console-based Java application designed to manage TV series information efficiently.  
-It allows users to perform CRUD operations (Create, Read, Update, Delete) and generate series reports.  
+**Author:** Alwande Ally  
+**Student Number:** ST10472171  
+**Version:** 2025.08.30  
 
-This project demonstrates Java concepts including:
+---
 
-- Classes and objects  
-- Encapsulation and data hiding  
-- Arrays and ArrayLists  
-- Loops and conditional statements  
-- Methods and constructors  
-- Unit testing with JUnit 5  
+## Project Overview
+
+**TVSeriesManager** is a Java console application that allows users to manage TV series data. Users can capture, search, update, and delete series records. The program also validates age restrictions for series and generates a series report.
+
+This project was developed as part of coursework for educational purposes.
 
 ---
 
 ## Features
 
-1. **Capture a New Series**  
-   - Enter series ID, name, age restriction, and number of episodes.  
-   - Adds the series to the in-memory database.
-
-2. **Search for a Series**  
-   - Search by series ID.  
-   - Displays series details if found, or an informative message if not.
-
-3. **Update Series Information**  
-   - Update name, age restriction, and number of episodes for a specific series.  
-
-4. **Delete a Series**  
-   - Remove a series from memory using its series ID.  
-   - Provides feedback if the series is not found.
-
-5. **Generate Series Report**  
-   - Display a formatted list of all series currently stored in memory.  
-
-6. **Unit Tests**  
-   - `SeriesModelTest.java` ensures all functionalities work as intended.  
-   - Tests cover searching, updating, deleting, and age restriction validation.
+1. **Capture a New Series** – Add a new series with ID, name, age restriction, and number of episodes.  
+2. **Search for a Series** – Look up series by their unique ID.  
+3. **Update Series Age Restriction** – Modify the age restriction for a specific series.  
+4. **Delete a Series** – Remove a series from the system.  
+5. **Print Series Report** – Display all series currently stored in the application.  
+6. **Exit Application** – Quit the program safely.
 
 ---
 
-## Requirements
+## Technologies Used
 
-- Java JDK 15 or higher  
-- NetBeans IDE (recommended)  
-- JUnit 5 for unit testing  
+- Java SE (Java Platform, Standard Edition)  
+- NetBeans IDE  
+- JUnit (Unit Testing Framework)  
+  - All tests successfully executed using **JUnit 4** for simplicity. JUnit 5 can also be used but may require additional configuration in NetBeans.  
+- Git & GitHub for version control
 
 ---
 
-## Project Structure
+## Installation & Running
+
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/VCSTDN2024/prog6112-practical-assignment-Alwande-Ally.git
+2.Open the project in NetBeans.
+3.Ensure the necessary JUnit libraries are added to your project (JUnit 4 recommended for easy testing).
+4.Build the project:
+Clean and Build Project in NetBeans.
+5.Run the program from NetBeans or via command line:
+java -jar dist/TVSeriesManager.jar
+6.Follow the on-screen menu to use the application.
+
+
+---
+##Unit Testing
+
+All functionalities have been tested with JUnit 4.
+
+Tests cover:
+
+Searching series
+
+Updating series
+
+Deleting series
+
+Validating age restrictions
+
+Note: If you experience setup issues with JUnit 5 in NetBeans, it is recommended to run the tests using JUnit 4, which is easier to configure and fully supported.
+
+---
+##Project Structure
 
 TVSeriesManager/
-├─ build/
-├─ dist/
-├─ nbproject/
-├─ src/
-│  └─ tvseriesmanager/
-│     ├─ MainApp.java
-│     ├─ Series.java
-│     └─ SeriesModel.java
-├─ test/
-│  └─ tvseriesmanager/
-│     └─ SeriesModelTest.java
-├─ README.md
-├─ build.xml
-└─ manifest.mf
-
+├── source Packages/
+│   └── tvseriesmanager/
+│       ├── MainApp.java
+│       ├── Series.java
+│       └── SeriesModel.java
+├──  Test Packages/
+│   └── tvseriesmanager/
+│       └── SeriesModelTestUpdated.java
+├── dist/
+│   └── TVSeriesManager.jar
+├── README.md
+└── .gitignore
 
 ---
+##.gitignore
 
-## Usage Instructions
-
-1. **Run the application**  
-   - Open `MainApp.java` and run the project in NetBeans.  
-   - Alternatively, use `F6` to run the main project.
-
-2. **Navigate the Menu**  
-   - Launch the menu by entering `1`.  
-   - Follow the prompts to perform operations (1-6).  
-
-3. **Example Interaction**
-
-LATEST SERIES - 2025
-Enter (1) to launch menu or any other key to exit
-1
-
-Please select one of the following menu items:
-(1) Capture a new series
-(2) Search for a series
-(3) Update series age restriction
-(4) Delete a series
-(5) Print series report - 2025
-(6) Exit Application
-Enter your choice: 1
-
-CAPTURE A NEW SERIES
-Enter the series id: 106
-Enter the series name: Adventure Time
-Enter the series age restriction: 10
-Enter the number of episodes for Adventure Time: 15
-Series processed successfully!
-
+The following files and folders are ignored in Git to prevent unnecessary clutter:
+/build/
+/dist/
+/nbproject/private/
+/*.class
+*.jar
+*.log
+*.cache
 
 ---
+##Notes
 
-## Author
-**Alwande Ally**  
-Version: 2025.08.30  
+This project is for educational purposes only.
 
----
+All data is stored in memory; no database is used.
 
-## License
-This project is for educational purposes. 
-
+Tested successfully using JUnit 4.

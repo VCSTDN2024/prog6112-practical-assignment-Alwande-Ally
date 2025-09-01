@@ -1,25 +1,37 @@
-# Ignore NetBeans build files
+# NetBeans project folders to ignore
+nbproject/private/
 build/
 dist/
-nbproject/private/
+.cache/
+.nb-Gradle/
+.generated/
 
-# Ignore NetBeans config files that are not needed
-nbbuild/
-nbdist/
-nbactions.xml
-nb-configuration.xml
+# Java class files
+*.class
 
-# OS-generated files
+# Log files
+*.log
+
+# OS-specific files
 .DS_Store
 Thumbs.db
 
-# IDE specific (other editors)
+# IDE-specific files
 *.iml
-.idea/
-.vscode/
+*.idea/
 
-# Logs
-*.log
+# Backup files
+*~
+*.swp
+*.swo
 
+# JARs or external libraries (optional if you don't want to track them)
+*.jar
 
+# Maven / Gradle specific (if you ever use them)
+target/
+*.war
+*.ear
 
+# Other temporary files
+*.tmp

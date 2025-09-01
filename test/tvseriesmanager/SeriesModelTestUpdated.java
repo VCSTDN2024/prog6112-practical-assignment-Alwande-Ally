@@ -4,22 +4,22 @@
  */
 package tvseriesmanager;
 
-import static org.junit.jupiter.api.Assertions.*;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
+import static org.junit.Assert.*;
+import org.junit.Before;
+import org.junit.Test;
 
 /**
- * Unit tests for SeriesModel class.
+ * Unit tests for SeriesModel class using JUnit 4.
  * Tests cover searching, updating, deleting series and validating age restrictions.
  * 
  * Author: Alwande Ally
  * Version: 2025.08.30
  */
-public class SeriesModelTest {
+public class SeriesModelTestUpdated {
 
     private SeriesModel seriesModel;
 
-    @BeforeEach
+    @Before
     public void setUp() {
         seriesModel = new SeriesModel();
 

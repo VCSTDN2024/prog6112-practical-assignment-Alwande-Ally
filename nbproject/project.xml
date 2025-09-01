@@ -15,6 +15,7 @@
             <word>Alwande</word>
             <word>config</word>
             <word>DS</word>
+            <word>Gradle</word>
             <word>iml</word>
             <word>nb</word>
             <word>nbactions</word>
@@ -23,6 +24,9 @@
             <word>nbproject</word>
             <word>NetBeans</word>
             <word>println</word>
+            <word>swo</word>
+            <word>swp</word>
+            <word>tmp</word>
             <word>vscode</word>
             <word>xml</word>
         </spellchecker-wordlist>
