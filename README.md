@@ -1,73 +1,84 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/E6_lM4MY)
-# TVSeriesManager
 
-*Author:* Alwande Ally  
-*Student Number:* ST10472171  
-*Module:* PROG6112  
-*Date:* September 2025  
 
----
+# TV Series Manager - PROG6112 Practical Assignment 2025
 
-## Project Overview
-TVSeriesManager is a Java-based desktop application designed to help users manage a collection of TV series. The application allows users to capture, search, update, delete, and generate reports of series efficiently. This project was developed using Java 15, Ant build system, and JUnit for testing.
+## Overview
+*TV Series Manager* is a console-based Java application that allows users to manage TV series information. Users can capture, search, update, delete series, and generate reports. This project demonstrates the use of *arrays, loops, classes, encapsulation, and unit testing*.  
 
 ---
 
 ## Features
-- *Capture a new series:* Add new series with title, genre, age restriction, and description.  
-- *Search for a series:* Quickly find a series using keywords.  
-- *Update series age restriction:* Modify the age rating for an existing series.  
-- *Delete a series:* Remove unwanted series from the collection.  
-- *Print series report:* Generate a list of all series for review.  
-- *Exit application:* Safely close the program.
+- Capture new TV series with ID, name, age restriction, and number of episodes  
+- Search for a series by its ID  
+- Update series details  
+- Delete a series  
+- Print a complete series report  
+- Unit tests validate functionality  
 
 ---
 
-## Technologies Used
-- *Java SE 15*  
-- *NetBeans IDE*  
-- *JUnit 4* for unit testing  
-- *Ant Build System*  
+## How to Run the Program
+1. Clone the repository:  
+```bash
+git clone https://github.com/YourUsername/prog6112-practical-assignment-Alwande-Ally.git
 
----
-## Testing
-All main functionalities were tested using *JUnit 4*.  
-- 7 tests in total  
-- All tests passed successfully  
-- Tests include series addition, search, update, and deletion  
+	2.	Open the project in NetBeans
+	3.	Build and run MainApp.java
+	4.	Follow the console menu prompts
 
-> *Note:* JUnit 5 caused compatibility issues, so JUnit 4 is recommended for this project.
+⸻
 
----
-## Project Structure
+Menu & Navigation
 
-TVSeriesManager/
-│
-├─ src/                  # Source code packages
-│   └─ tvseriesmanager/  # Main application classes
-├─ test/                 # Test packages
-│   └─ tvseriesmanager/  # JUnit test classes
-├─ build/                # Build artifacts
-├─ dist/                 # Distribution jar
-├─ nbproject/            # NetBeans project configuration
-├─ .gitignore            # Git ignore file
-└─ README.md             # Project README
----
+The application presents the following menu:
+	1.	Capture a new series
+	2.	Search for a series
+	3.	Update series age restriction
+	4.	Delete a series
+	5.	Print series report
+	6.	Exit application
 
-## How to Run
-1. Open the project in NetBeans.  
-2. Build the project using Clean and Build.  
-3. Run the TVSeriesManager.jar file from the dist folder.  
-4. Follow the console menu to interact with the application.
 
----
+⸻
 
-## GitHub Repository
-[TVSeriesManager Repository](https://github.com/VCSTDN2024/prog6112-practical-assignment-Alwande-Ally)
+Unit Tests
 
----
+All SeriesModel unit tests have been implemented and passed successfully, verifying that:
+	•	Searching works correctly
+	•	Updating series updates the correct data
+	•	Deleting series removes it from memory
+	•	Age restriction validation is functional
 
-## Notes
-- This project is submitted for educational purposes.  
-- Ensure JUnit 4 is used for testing to avoid compatibility issues.  
-- The application runs as a console-based program.
+Unit Tests Screenshot:
+
+
+⸻
+
+References
+	•	Java documentation: https://docs.oracle.com/javase/
+	•	NetBeans IDE: https://netbeans.apache.org/
+	•	FreeCodeCamp Java tutorials
+	•	AI assistance (ChatGPT) for guidance on structure, testing, and README formatting
+
+⸻
+
+Areas for Improvement
+	•	Add persistent storage (e.g., saving series data to a file or database)
+	•	Enhance user interface with better formatting or GUI
+	•	Implement additional search filters (by name, age, number of episodes)
+	•	Include exception handling for invalid inputs
+
+
+
+##Author
+
+Alwande Ally
+PROG6112 Practical Assignment 2025
+
+✅ Notes:  
+- Replace path-to-your-menu-screenshot.png and path-to-your-unit-tests-screenshot.png with your actual images in the repo.  
+- Once added and committed, GitHub will render the images and Markdown beautifully.  
+- This README hits all rubric points: project overview, menu, unit tests, references, areas for improvement, and author info.  
+
+I can also *draft a version that includes the screenshots inline directly as you would paste in GitHub*, so it looks perfect in the final repo. Do you want me to do that?
