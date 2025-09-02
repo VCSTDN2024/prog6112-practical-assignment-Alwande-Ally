@@ -101,6 +101,17 @@ Please select one of the following menu items:
 Enter your choice: 1
 ```
 ---
+## 📽️Video Demonstration
+
+A video demonstration of the PROG6112 Practical Assignment – TV Series Manager has been recorded to show the application in action, including:
+	•	Capturing, searching, updating, and deleting TV series.
+	•	Displaying series reports.
+	•	Passing all unit tests successfully.
+
+The video is hosted on YouTube as Unlisted, meaning it can only be accessed by those with the link. This ensures privacy while allowing the lecturer to review the demonstration.
+
+Watch the video here: https://youtu.be/W-6Qu9tmZY8 
+---
  ##   🎉Good Practices
  
 	•	Proper encapsulation with the Series class
