@@ -98,7 +98,7 @@ Please select one of the following menu items:
 (4) Delete a series
 (5) Print series report - 2025
 (6) Exit Application
-Enter your choice: 1
+Enter your choice: 
 ```
 ---
 ## 📽️Video Demonstration
