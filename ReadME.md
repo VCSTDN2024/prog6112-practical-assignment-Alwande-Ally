@@ -1,105 +1,73 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/E6_lM4MY)
 # TVSeriesManager
 
-**Author:** Alwande Ally  
-**Student Number:** ST10472171  
-**Version:** 2025.08.30  
+*Author:* Alwande Ally  
+*Student Number:* ST10472171  
+*Module:* PROG6112  
+*Date:* September 2025  
 
 ---
 
 ## Project Overview
-
-**TVSeriesManager** is a Java console application that allows users to manage TV series data. Users can capture, search, update, and delete series records. The program also validates age restrictions for series and generates a series report.
-
-This project was developed as part of coursework for educational purposes.
+TVSeriesManager is a Java-based desktop application designed to help users manage a collection of TV series. The application allows users to capture, search, update, delete, and generate reports of series efficiently. This project was developed using Java 15, Ant build system, and JUnit for testing.
 
 ---
 
 ## Features
-
-1. **Capture a New Series** – Add a new series with ID, name, age restriction, and number of episodes.  
-2. **Search for a Series** – Look up series by their unique ID.  
-3. **Update Series Age Restriction** – Modify the age restriction for a specific series.  
-4. **Delete a Series** – Remove a series from the system.  
-5. **Print Series Report** – Display all series currently stored in the application.  
-6. **Exit Application** – Quit the program safely.
+- *Capture a new series:* Add new series with title, genre, age restriction, and description.  
+- *Search for a series:* Quickly find a series using keywords.  
+- *Update series age restriction:* Modify the age rating for an existing series.  
+- *Delete a series:* Remove unwanted series from the collection.  
+- *Print series report:* Generate a list of all series for review.  
+- *Exit application:* Safely close the program.
 
 ---
 
 ## Technologies Used
-
-- Java SE (Java Platform, Standard Edition)  
-- NetBeans IDE  
-- JUnit (Unit Testing Framework)  
-  - All tests successfully executed using **JUnit 4** for simplicity. JUnit 5 can also be used but may require additional configuration in NetBeans.  
-- Git & GitHub for version control
+- *Java SE 15*  
+- *NetBeans IDE*  
+- *JUnit 4* for unit testing  
+- *Ant Build System*  
 
 ---
+## Testing
+All main functionalities were tested using *JUnit 4*.  
+- 7 tests in total  
+- All tests passed successfully  
+- Tests include series addition, search, update, and deletion  
 
-## Installation & Running
-
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/VCSTDN2024/prog6112-practical-assignment-Alwande-Ally.git
-2.Open the project in NetBeans.
-3.Ensure the necessary JUnit libraries are added to your project (JUnit 4 recommended for easy testing).
-4.Build the project:
-Clean and Build Project in NetBeans.
-5.Run the program from NetBeans or via command line:
-java -jar dist/TVSeriesManager.jar
-6.Follow the on-screen menu to use the application.
-
+> *Note:* JUnit 5 caused compatibility issues, so JUnit 4 is recommended for this project.
 
 ---
-##Unit Testing
-
-All functionalities have been tested with JUnit 4.
-
-Tests cover:
-
-Searching series
-
-Updating series
-
-Deleting series
-
-Validating age restrictions
-
-Note: If you experience setup issues with JUnit 5 in NetBeans, it is recommended to run the tests using JUnit 4, which is easier to configure and fully supported.
-
----
-##Project Structure
+## Project Structure
 
 TVSeriesManager/
-├── source Packages/
-│   └── tvseriesmanager/
-│       ├── MainApp.java
-│       ├── Series.java
-│       └── SeriesModel.java
-├──  Test Packages/
-│   └── tvseriesmanager/
-│       └── SeriesModelTestUpdated.java
-├── dist/
-│   └── TVSeriesManager.jar
-├── README.md
-└── .gitignore
+│
+├─ src/                  # Source code packages
+│   └─ tvseriesmanager/  # Main application classes
+├─ test/                 # Test packages
+│   └─ tvseriesmanager/  # JUnit test classes
+├─ build/                # Build artifacts
+├─ dist/                 # Distribution jar
+├─ nbproject/            # NetBeans project configuration
+├─ .gitignore            # Git ignore file
+└─ README.md             # Project README
+---
+
+## How to Run
+1. Open the project in NetBeans.  
+2. Build the project using Clean and Build.  
+3. Run the TVSeriesManager.jar file from the dist folder.  
+4. Follow the console menu to interact with the application.
 
 ---
-##.gitignore
 
-The following files and folders are ignored in Git to prevent unnecessary clutter:
-/build/
-/dist/
-/nbproject/private/
-/*.class
-*.jar
-*.log
-*.cache
+## GitHub Repository
+[TVSeriesManager Repository](https://github.com/VCSTDN2024/prog6112-practical-assignment-Alwande-Ally)
 
 ---
-##Notes
 
-This project is for educational purposes only.
-
-All data is stored in memory; no database is used.
-
-Tested successfully using JUnit 4.
+## Notes
+- This project is submitted for educational purposes.  
+- Ensure JUnit 4 is used for testing to avoid compatibility issues.  
+- The application runs as a console-based program.
