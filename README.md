@@ -48,7 +48,7 @@ All series are stored in memory using an ArrayList. The project demonstrates *ob
 
 ### Clone the Repository
 
-git clone https://github.com/YourUsername/prog6112-practical-assignment-Alwande-Ally.git  
+git clone https://github.com/VCSTDN2024/prog6112-practical-assignment-Alwande-Ally.git
 
 ### Requirements
 
