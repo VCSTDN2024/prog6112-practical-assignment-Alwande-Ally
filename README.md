@@ -78,7 +78,10 @@ All unit tests are written in *JUnit* and verify that the application works as i
 - Series Age Restriction: Valid – Accepts valid age  
 - Series Age Restriction: Invalid – Rejects invalid age  
 
-Screenshot of passing unit tests included in report/video.  
+Screenshot of passing unit tests included in report/video. 
+The following screenshot shows all unit tests passing:
+
+![Unit Tests Passing](Unit%20Tests%20Screenshot%20.png)
 
 ---
 
