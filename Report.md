@@ -63,6 +63,10 @@ It includes:
 
 This setup emphasizes good practices in team-based software development and code sharing.
 
+## Screenshot of Unit Tests
+
+![Unit Tests Screenshot](https://github.com/VCSTDN2024/prog6112-practical-assignment-Alwande-Ally/blob/main/Unit%20Tests%20Screenshot%20.png?raw=true)
+
 
 ---
 
