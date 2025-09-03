@@ -26,8 +26,8 @@ All series are stored in memory using an ArrayList. The project demonstrates *ob
 ---
 
 ## 📃Documentation
-- [ Full report] (./REPORT.md)
-- [Referencing] ( IEEE REFERENCES.md)
+- [ Full report] (./Report.md)
+- [Referencing] ( ./IEEE REFERENCES.md)
   
 
 ## ⚙ Features
