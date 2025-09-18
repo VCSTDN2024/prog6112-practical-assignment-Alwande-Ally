@@ -1,0 +1,37 @@
+# NetBeans project folders to ignore
+nbproject/private/
+build/
+dist/
+.cache/
+.nb-Gradle/
+.generated/
+
+# Java class files
+*.class
+
+# Log files
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+*.iml
+*.idea/
+
+# Backup files
+*~
+*.swp
+*.swo
+
+# JARs or external libraries (optional if you don't want to track them)
+*.jar
+
+# Maven / Gradle specific (if you ever use them)
+target/
+*.war
+*.ear
+
+# Other temporary files
+*.tmp
